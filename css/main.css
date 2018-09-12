@@ -1,0 +1,244 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+  /*設定一個元素樣式為 box-sizing: border-box;
+  這個元素的內距和邊框將不會增加元素本身的寬度*/
+}
+
+body{
+  display: block;
+  background-color: #fe7701;
+}
+
+main{
+  width:1260px;
+  height:1340px;
+  /*background-color:red;*/
+  margin: 0 auto;
+  padding: 0 150px;
+
+}
+
+header{
+  margin: 30px 0px 18px 0px;
+}
+
+:link ,:visited {
+  font-weight: bold;
+  color: #fe7701;
+  text-decoration: none;
+}
+
+.white_block{
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: -5px 5px rgba(164, 77, 5, 0.5);
+}
+
+.inline_block{
+  display: inline-block;
+}
+
+.title_style{
+  height: 50px;
+  font-weight: bold;
+  color: #fe7701;
+  padding: 16px 30px;
+  margin-bottom: 20px;
+}
+
+.float_left{
+  float: left;
+}
+
+.mid_title{
+  height: 50px;
+  width: 300px;
+}
+
+#upper_block{
+  width: 300px;
+  height: 206px;
+  float: left;
+}
+
+.btm_title{
+  margin-top: 40px;
+}
+
+.mid_right{
+  margin-right: 30px;
+}
+
+.service_btn{
+  height: 30px;
+  width: 199px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  float: right;
+  padding: 8px 0px 8px 15px;
+  font-size: 12px;
+}
+
+.port_right{
+  margin-right: 15px;
+}
+
+.port_bottom{
+  margin-bottom: 10px;
+}
+
+#logo{
+  margin: 0px 491px 0px 25px;
+  /*margin-left: 25px;
+  margin-right: 491px;
+  margin-bottom: 18px;*/
+}
+
+#btn_set a{
+  margin-right: 10px;
+}
+
+nav a{
+  margin-right:30px;
+  float: left;
+}
+
+#sliderbox{
+  margin: 19px 0px 20px 0px;
+  height: 500px;
+  width: 960px;
+  background-image: url(../img/bg_sliderbox.png);
+  /*CSS中在同層的資料夾用../*/
+}
+
+#services{
+  width: 300px;
+  height: 206px;
+}
+
+#service-block{
+  width: 250px;
+  height: 110px;
+  margin-left: 51px;
+}
+
+#service-block img{
+  float: left;
+}
+
+#portfolio{
+  height: 206px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+#portfolio-block img {
+  float: left;
+}
+
+#Testimoniais{
+  margin-left: 30px;
+  height: 206px;
+  width: 300px;
+}
+
+#testimoniais_block{
+  height: 136px;
+  width: 300px;
+  padding: 13px 15px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#Blog{
+  height: 330px;
+  width: 630px;
+}
+
+.aritcle{
+  height: 80px;
+  width: 630px;
+}
+
+.article_margin{
+  margin-bottom: 10px;
+}
+
+article img{
+  margin: 10px;
+  float: left;
+  /*除去這行文字會不平行排列 都要float:left;*/
+}
+
+.article_text{
+  margin: 14px 0px 25px 0px;
+}
+
+article h1{
+  font-size: 16px;
+  color: #404040;
+  margin-bottom: 8px;
+}
+
+article h3{
+  font-size: 10px;
+  font-style: italic;
+  color: #a54e03;
+}
+
+#Tweets{
+  height: 330px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+#tweet-block{
+  height: 260px;
+  width: 300px;
+  padding: 0px 15px;
+}
+
+.tweet-bar{
+  border-bottom: 1px solid #a54e03;
+  padding: 14px 0px;
+}
+
+.tw_text{
+  font-size: 13px;
+  color: #404040;
+}
+
+.tw_account{
+  font-size: 13px;
+  color: #a54e03;
+  margin: auto;
+}
+
+.tw_links{
+  font-size: 10px;
+  color: #a54e03;
+  font-style: italic;
+}
+
+footer{
+  height: 50px;
+  background-color: #404040;
+  padding: 16px 295px 16px 180px;
+}
+
+#footer_left{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fe7701;
+  float: left;
+}
+
+#footer_right{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fe7701;
+  float: right;
+}
